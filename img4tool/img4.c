@@ -1012,7 +1012,7 @@ int im4m_buildidentity_check_cb(char elemNameStr[4], char *dgstData, size_t dgst
 #define skipelem(e) if (strncmp(e, elemNameStr,4) == 0) return 0
     skipelem("BasebandFirmware");
     skipelem("ftap");
-    skipelem("ftsp);
+    skipelem("ftsp");
     skipelem("rfta");
     skipelem("rfts");
     skipelem("SE,Bootloader");
